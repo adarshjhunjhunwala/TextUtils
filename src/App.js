@@ -45,9 +45,9 @@ function App() {
       <Alert alert={alert} />
       <div className="container my-3">
         <Routes>
-          <Route exact path="/about" element={<About mode={mode}/>}>
+          <Route exact path="/TextUtils/about" element={<About mode={mode}/>}>
           </Route>
-          <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Try TextUtils - Word counter, Character counter, Uppercase to Lowercase, Lowercase to Uppercase, Remove Extra Spaces, Copy Text" mode={mode} />}>
+          <Route exact path="/TextUtils" element={<TextForm showAlert={showAlert} heading="Try TextUtils - Word counter, Character counter, Uppercase to Lowercase, Lowercase to Uppercase, Remove Extra Spaces, Copy Text" mode={mode} />}>
           </Route>
         </Routes>
       </div>
